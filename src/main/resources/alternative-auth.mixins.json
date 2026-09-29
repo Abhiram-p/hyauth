@@ -4,8 +4,7 @@
     "compatibilityLevel": "JAVA_25",
     "mixins": [
         "HasJoinedServerMixin",
-        "FindProfileByNameMixin",
-        "FindProfilesByNamesMixin"
+        "ElyByChatSessionMixin"
     ],
     "injectors": {
         "defaultRequire": 1
