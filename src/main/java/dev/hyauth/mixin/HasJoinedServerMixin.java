@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.mixin;
+package dev.hyauth.mixin;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.HttpDiscoveryService;
@@ -11,12 +11,12 @@ import com.mojang.authlib.services.ProfileResult;
 import com.mojang.authlib.services.response.HasJoinedMinecraftServerResponse;
 import com.mojang.authlib.services.response.ProfileAction;
 
-import one.ggsky.alternativeauth.config.AlternativeAuthConfig;
-import one.ggsky.alternativeauth.config.AlternativeAuthConfigManager;
-import one.ggsky.alternativeauth.config.AlternativeAuthProvider;
-import one.ggsky.alternativeauth.logger.AlternativeAuthLogger;
-import one.ggsky.alternativeauth.logger.AlternativeAuthLoggerManager;
-import one.ggsky.alternativeauth.util.AlternativeAuthUtils;
+import dev.hyauth.config.AlternativeAuthConfig;
+import dev.hyauth.config.AlternativeAuthConfigManager;
+import dev.hyauth.config.AlternativeAuthProvider;
+import dev.hyauth.logger.AlternativeAuthLogger;
+import dev.hyauth.logger.AlternativeAuthLoggerManager;
+import dev.hyauth.util.AlternativeAuthUtils;
 
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

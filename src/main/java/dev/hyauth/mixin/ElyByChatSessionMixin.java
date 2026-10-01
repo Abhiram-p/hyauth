@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.mixin;
+package dev.hyauth.mixin;
 
 import com.mojang.authlib.properties.PropertyMap;
 import net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket;

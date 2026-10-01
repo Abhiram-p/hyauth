@@ -1,23 +1,23 @@
 {
     "schemaVersion": 1,
-    "id": "alternative-auth",
+    "id": "hyauth",
     "version": "${version}",
-    "name": "Alternative Authentication",
-    "description": "Use third-party authentication servers, like Ely.by, on your server without interfering with Mojang authentication",
-    "authors": ["GGSkyOne"],
+    "name": "Hyauth",
+    "description": "Server-side multi-provider authentication for Minecraft, supporting Microsoft and third-party accounts such as Ely.by",
+    "authors": ["Abhiram-p", "GGSkyOne"],
     "contact": {
-        "homepage": "https://modrinth.com/mod/alternative-authentication",
-        "sources": "https://github.com/GGSkyOne/alternative-authentication",
-        "issues": "https://github.com/GGSkyOne/alternative-authentication/issues"
+        "homepage": "https://github.com/Abhiram-p/hyauth",
+        "sources": "https://github.com/Abhiram-p/hyauth",
+        "issues": "https://github.com/Abhiram-p/hyauth/issues"
     },
     "license": "MIT",
     "environment": "server",
     "entrypoints": {
-        "server": ["one.ggsky.alternativeauth.AlternativeAuthentication"]
+        "server": ["dev.hyauth.Hyauth"]
     },
-    "mixins": ["alternative-auth.mixins.json"],
+    "mixins": ["hyauth.mixins.json"],
     "depends": {
-        "minecraft": [">=1.21.9", "<=1.21.11"],
+        "minecraft": "26.3",
         "fabric-api": "*"
     }
 }

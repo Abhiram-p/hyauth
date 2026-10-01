@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.util;
+package dev.hyauth.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

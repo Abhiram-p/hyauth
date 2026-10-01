@@ -1,8 +1,9 @@
-package one.ggsky.alternativeauth.logger;
+package dev.hyauth.logger;
 
 import org.apache.logging.log4j.Logger;
 
 public class AlternativeAuthLogger {
+
     private final Logger logger;
     private volatile boolean debugMode;
 
@@ -14,7 +15,7 @@ public class AlternativeAuthLogger {
         this.debugMode = debugMode;
 
         if (debugMode) {
-            logger.info("Debug mode enabled for Alternative Authentication");
+            logger.info("Debug mode enabled for Hyauth");
         }
     }
 

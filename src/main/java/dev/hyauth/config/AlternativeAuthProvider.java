@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.config;
+package dev.hyauth.config;
 
 public class AlternativeAuthProvider {
     private String name;
@@ -27,3 +27,4 @@ public class AlternativeAuthProvider {
         return propertyUrl;
     }
 }
+

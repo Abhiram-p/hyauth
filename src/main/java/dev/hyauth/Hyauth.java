@@ -1,10 +1,10 @@
-package one.ggsky.alternativeauth;
+package dev.hyauth;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
-import one.ggsky.alternativeauth.config.AlternativeAuthConfigManager;
-import one.ggsky.alternativeauth.logger.AlternativeAuthLoggerManager;
+import dev.hyauth.config.AlternativeAuthConfigManager;
+import dev.hyauth.logger.AlternativeAuthLoggerManager;
 
-public class AlternativeAuthentication implements DedicatedServerModInitializer {
+public class Hyauth implements DedicatedServerModInitializer {
 	@Override
 	public void onInitializeServer() {
 		AlternativeAuthConfigManager.loadConfig();
@@ -13,3 +13,4 @@ public class AlternativeAuthentication implements DedicatedServerModInitializer 
 		AlternativeAuthLoggerManager.getLogger().info("Alternative Authentication is now powering your Minecraft server! \uD83D\uDD10");
 	}
 }
+

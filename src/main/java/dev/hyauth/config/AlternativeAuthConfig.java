@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.config;
+package dev.hyauth.config;
 
 import java.util.List;
 
@@ -24,3 +24,4 @@ public class AlternativeAuthConfig {
         return providers;
     }
 }
+

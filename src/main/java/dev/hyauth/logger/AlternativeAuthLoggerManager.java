@@ -1,4 +1,4 @@
-package one.ggsky.alternativeauth.logger;
+package dev.hyauth.logger;
 
 import org.apache.logging.log4j.LogManager;
 
@@ -13,3 +13,4 @@ public class AlternativeAuthLoggerManager {
         return logger;
     }
 }
+
